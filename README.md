@@ -70,7 +70,7 @@ The above might print something like this:
 ```
 sourceFile took 2.50045 ms
 split took 76.264812 ms
-transform took 828.31935 ms
+toUpperCase took 828.31935 ms
 ```
 
 The `result` objects have the following properties:
