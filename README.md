@@ -38,7 +38,7 @@ var Sucker = require('./index.js');
 var fs = require('fs');
 var _ = require('highland');
 
-// One Sucker instance creates coordinates multiple sequential tap points.
+// One Sucker instance creates and coordinates multiple sequential tap points.
 var sucker = Sucker();
 
 var inp = _(fs.createReadStream('/usr/dict/words'));
