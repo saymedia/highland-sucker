@@ -1,0 +1,27 @@
+{
+  "name": "highland-sucker",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "jshint *.js"
+  },
+  "dependencies": {
+    "highland": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "mocha": "^3.1.0"
+  },
+  "keywords": [
+    "highland",
+    "performance",
+    "profiling",
+    "timing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saymedia/highland-sucker"
+  },
+  "homepage": "https://github.com/saymedia/highland-sucker",
+  "license": "MIT"
+}
