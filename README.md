@@ -34,7 +34,7 @@ pipeline, so it can gather timing information at various points. A single
 create a buffering/measurement point:
 
 ```js
-var Sucker = require('./index.js');
+var Sucker = require('sucker');
 var fs = require('fs');
 var _ = require('highland');
 
